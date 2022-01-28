@@ -1,0 +1,81 @@
+{
+  "artifacts": [],
+  "command": "run",
+  "experiment": {
+    "base_dir": "/home/anon/graph-gan-main/code/ggg/experiments/ggan_exp",
+    "dependencies": [
+      "matplotlib==3.4.3",
+      "numpy==1.19.2",
+      "sacred==0.8.2"
+    ],
+    "mainfile": "base.py",
+    "name": "GG_GAN_Train",
+    "repositories": [
+      {
+        "commit": "fe7fed1e9fda7694cac11d85a342c29fe7d9e689",
+        "dirty": false,
+        "url": "https://github.com/anon-anon/graph-gan-main.git"
+      },
+      {
+        "commit": "fe7fed1e9fda7694cac11d85a342c29fe7d9e689",
+        "dirty": false,
+        "url": "https://github.com/anon-anon/graph-gan-main.git"
+      }
+    ],
+    "sources": [
+      [
+        "__init__.py",
+        "_sources/__init___77274a4b109b85151db90e985535622c.py"
+      ],
+      [
+        "base.py",
+        "_sources/base_52032fe5b345a3e2cfeb19f2b79f9b5b.py"
+      ]
+    ]
+  },
+  "heartbeat": "2022-01-22T08:24:42.618068",
+  "host": {
+    "ENV": {},
+    "cpu": "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz",
+    "hostname": "anon-compute-08.iel.anon.ch",
+    "os": [
+      "Linux",
+      "Linux-3.10.0-514.21.1.el7.x86_64-x86_64-with-redhat-7.3-Maipo"
+    ],
+    "python_version": "3.7.9"
+  },
+  "meta": {
+    "command": "run",
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [
+        "report_base_ch9_fun_exp"
+      ],
+      "help": false,
+      "with": true
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2022-01-21T16:09:27.857102",
+  "status": "RUNNING"
+}
