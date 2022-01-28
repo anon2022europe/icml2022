@@ -16,7 +16,7 @@ The respective runs are
 - in `small_graphs/runs`:
   - chordal9,comm20,qm9, for the ggg runs reported in the table.
 
-All of the above can be run with `python XXX/code/ggg/experiments/GGG.py with ${path_to_config.json}` since we use [sacred](https://pypi.org/project/sacred/) for all our experiments and the `config.json` contains all necessary hyperparameters. For the large graphs we also provide pretrained [pytorch lightning checkpoints](https://pytorchlightning.ai/) which can be loaded and evaluated with `ggg/experiments/eval_gg.py` (except ogbg-molpcba which was too large for the github repo).
+All of the above can be run with `python XXX/code/ggg/experiments/GGG.py with ${path_to_config.json}` since we use [sacred](https://pypi.org/project/sacred/) for all our experiments and the `config.json` contains all necessary hyperparameters. For the large graphs we also provide pretrained [pytorch lightning checkpoints](https://pytorchlightning.ai/) which can be loaded and evaluated with `ggg/experiments/eval_gg.py` .
 
 
 The baselines (condgen,graphrnn,scorematching,molgan) can be found in the `XXX/externals/benchmarks` section of each directory, they are simply the original author codes slightly tweaked to our dataset.
